@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-nav-menu li a{
+    font-family: ui-rounded;
+    font-size: 14px;
+}
+
+.header-container{
+    width: 100%;
+}
+
+.text-content{
+    height: 33px;
+    width: 100%;
+}
+
+.about-bar{
+    width: 100%;
+}
+
+.about-bar a{
+    text-decoration: none;
+}
+
+.info-content{
+    width: 100%;
+}
+
+.info-content a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.icon-one::before  {
+    color: rgb(12, 117, 17);
+    font-size: 90px;
+}
+
+.icon-two::before  {
+    color: rgb(12, 117, 17);
+    font-size: 90px;
+}
+
+.icon-three::before  {
+    color: rgb(12, 117, 17);
+    font-size: 90px;
+}
+
+.icon-four::before  {
+    color: rgb(12, 117, 17);
+    font-size: 90px;
+}
+
+.sub-input{
+    width: 40%;
+}
+
+.about-us p{
+    width: 50%;
+}
+
+.inner-shape{
+    background: #00000054;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border-bottom: 38px solid #c9c9c975;
+    position: absolute;
+    left: 4%;
+}
+
+.last-section-container{
+    background-color: #bdbdbda3;
+}
+
+.bottom-logo a{
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #2e2020;
+    font-family: monospace;
+}
+
+@media (max-width:768px){
+    .icon-one::before{
+        font-size: 50px;
+    }
+
+    .icon-two::before  {
+        font-size: 50px;
+    }
+    
+    .icon-three::before  {
+        font-size: 50px;
+    }
+    
+    .icon-four::before  {
+        font-size: 50px;
+    }
+
+    .about-us p {
+        width: 70%;
+        text-align: justify;
+    }
+
+    .input-group span{
+        display: none;
+    }
+
+   
+}
+
+@media(max-width:600px){
+    .email{
+        width: 100%;
+    }
+}
+
+
+/* Product style section */
+
+
+
+.product-content {
+    background: url(image/farm4-product.jpg);
+    height: 340px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.product-text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+}
+
+.category h4 {
+    font-family: emoji;
+}
+
+.categories-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories-menu li a{
+    font-family: cursive;
+}
+
+.sort-by h4 {
+    font-family: emoji;
+}
+.sort-by-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sort-by-menu li a{
+    font-family: cursive;
+}
+
+@media(max-width:700px){
+    .product-container-display{
+        margin: 0 20%;
+    }
+}
+
+
+@media(max-width:450px){
+    .card {
+        width: 270px;
+      
+    }
+}
+
+
+@media(width:540px){
+    .card {
+        width: 437px;
+        margin: auto;
+    }
+}
+
+

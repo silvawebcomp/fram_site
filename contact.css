@@ -1,0 +1,26 @@
+.second-nav-menu li a{
+    font-family: ui-rounded;
+    font-size: 14px;
+}
+
+.contact-section{
+    background: url(image/wall2.jpg);
+    height: 335px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;   
+    background-attachment: fixed;
+}
+
+.contact-container{
+    background: #00000061;
+    height: 335px;
+}
+
+.contact-heading{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+

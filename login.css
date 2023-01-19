@@ -1,0 +1,29 @@
+.second-nav-menu li a{
+    font-family: ui-rounded;
+    font-size: 14px;
+}
+
+.login{
+    background-image: url(image/pexels-pixabay-164504.jpg);
+    padding: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.login-container{
+    background: rgb(128 128 128 / 37%);
+    margin: auto;
+    max-width: 779px;
+    padding: 1%;
+}
+
+
+
+@media (max-width:500px) {
+    #create-btn{
+        width: 123px;
+        margin: 0 28px;
+    }
+}

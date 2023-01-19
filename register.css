@@ -1,0 +1,64 @@
+.second-nav-menu li a{
+    font-family: ui-rounded;
+    font-size: 14px;
+}
+
+.login{
+    background-image: url(image/wall.jpg);
+    padding: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.login-container{
+    background: rgb(128 128 128 / 37%);
+    margin: auto;
+    max-width: 779px;
+    padding: 1%;
+}
+
+.was-validated .input-group{
+ width: 80%;       
+}
+
+#aGree{
+    padding: 0 22%;
+}
+
+.button{
+    padding: 0 19%;
+}
+
+@media(max-width:300px){
+    .was-validated .input-group{
+        width: 100%;
+    }
+
+    .row .sign-up-section{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .button{
+        padding: 0 10%;
+    }    
+
+    .sign-up {
+        width: 123px;
+        margin: 0 20px;
+    }
+
+    #aGree .form-check-label{
+        font-size: 14px;
+    }
+
+    .row .col-3 .sign-in{
+        font-size: 12px;
+        width: 59px;
+    }
+
+}
